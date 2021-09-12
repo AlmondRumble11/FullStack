@@ -10,7 +10,6 @@
     "author": "Jesse Mustonen",
     "license": "ISC",
     "dependencies": {
-        "jshint": "^2.13.1",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
