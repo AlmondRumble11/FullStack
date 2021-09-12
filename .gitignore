@@ -1,7 +1,7 @@
 node_modules
 reference
-index2.js
-index3.js
+test2.js
+test3.js
 logger.js
 person.js
 .vscode
