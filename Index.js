@@ -1,10 +1,10 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const { UV_FS_O_FILEMAP } = require("constants");
+
 
 //port number. 5000 or environmenbt variable(first)
-const PORT = process.env.PORT || 5000;
+
 
 //creating new server object
 const serverObject = http.createServer((request, response) => {
@@ -88,6 +88,6 @@ const serverObject = http.createServer((request, response) => {
     /* console.log(filePath);
      response.end();*/
 });
-
+const PORT = process.env.PORT || 5000;
 //listens to given port
 serverObject.listen(PORT, () => console.log(`Server operational on port number ${PORT}`));
